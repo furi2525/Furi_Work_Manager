@@ -1,0 +1,43 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+th, td {
+text-align: left;
+padding: 8px;
+}
+
+th {
+background-color: #4CAF50;
+color: white;
+}
+
+tr:nth-child(even) {
+background-color: #f2f2f2;
+}
+
+button {
+margin: 10px;
+}
+
+/*  */
+
+table {
+    border-collapse: collapse;
+}
+th, td {
+border: 1px solid black;
+padding: 0.5em;
+text-align: center;
+}
+th {
+background-color: #eeeeee;
+cursor: pointer;
+}
+.asc:after {
+content: "↑";
+}
+.desc:after {
+content: "↓";
+}

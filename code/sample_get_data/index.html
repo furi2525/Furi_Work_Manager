@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>データベースの内容を表示するWebページ</title>
+    <link rel="stylesheet" href="Style.css">
+  </head>
+  <body>
+    <table id="table">
+      <thead>
+        <tr>
+          <th>ユーザーID</th>
+          <th>ユーザー名</th>
+          <th>時給</th>
+        </tr>
+        <tr>
+          <th><button onclick="sortData('user_id')">昇順</button><button onclick="sortData('user_id', true)">降順</button></th>
+          <th><button onclick="sortData('user_name')">昇順</button><button onclick="sortData('user_name', true)">降順</button></th>
+          <th><button onclick="sortData('hourly_wage')">昇順</button><button onclick="sortData('hourly_wage', true)">降順</button></th>
+        </tr>
+      </thead>
+      <tbody id="table-body">
+      </tbody>
+    </table>
+    <script src="script.js"></script>
+  </body>
+</html>
+
